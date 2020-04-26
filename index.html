@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Calculadora</title>
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/65b6d5090a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <h1 class="display-4 text-center text-primary my-3">
+      Calculadora en Boostrap 4!!
+    </h1>
+    <div
+      class="container caja-main d-flex justify-content-center align-items-center flex-column float-right mr-4"
+    >
+      <input type="text" class="text-salida" id="data" />
+      <div id="botones" class="botones grid mt-2">
+        <button class="box muted">%</button>
+        <button class="box muted">√</button>
+        <button class="box muted">x²</button>
+        <button class="box muted">¹/x</button>
+        <button class="box muted" id="clear">CE</button>
+        <button class="box muted">C</button>
+        <button class="box muted"><i class="fas fa-backspace"></i></button>
+        <button class="box muted" id="divide">
+          <i class="fas fa-divide"></i>
+        </button>
+        <button class="box box-white" id="one">1</button>
+        <button class="box box-white" id="two">2</button>
+        <button class="box box-white" id="three">3</button>
+        <button class="box muted" id="equis">x</button>
+        <button class="box box-white" id="four">4</button>
+        <button class="box box-white" id="five">5</button>
+        <button class="box box-white" id="six">6</button>
+        <button class="box muted" id="minus">-</button>
+        <button class="box box-white" id="seven">7</button>
+        <button class="box box-white" id="eight">8</button>
+        <button class="box box-white" id="nine">9</button>
+        <button class="box muted" id="plus">+</button>
+        <button class="box muted">+-</button>
+        <button class="box box-white" id="cero">0</button>
+        <button class="box muted" id="point">.,</button>
+        <button class="box muted" id="answer">=</button>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

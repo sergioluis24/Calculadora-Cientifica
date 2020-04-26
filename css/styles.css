@@ -1,0 +1,63 @@
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 4.5rem;
+    background: #00d2d3; /*yue guang lan blue*/
+    /* margin-bottom: 1rem; */
+    color: #fff;
+    border: none;
+}
+.box-white{
+    background: #c8d6e5;
+    color: black;
+}
+.box:hover{
+    background: #48dbfb;
+}
+.box-white:hover{
+background: #f1f2f6af;
+
+}
+.grid{
+    /* Pocisionamiento */
+    display: grid;
+    grid-gap: .1rem;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(6,1fr);
+    justify-items: center;
+    align-items:center;
+    /*Medidas*/
+    /* width: 30%; */
+    height: 100%;
+    width: 100%;
+    /* Color */
+    /* background: #ced6e0; */
+    /* padding: .3rem; */
+    /* padding-top:3rem; */
+}
+.caja-main{
+    margin-top: 3rem;
+    height: 23srem;
+    width: 20rem;
+    background:none;
+    border: 1px solid #00d2d3;
+    padding-top: .3rem;
+    padding-bottom:.3rem ;
+    padding-left:.3rem ;
+    padding-right:.3rem ;
+
+}
+
+.text-salida{
+    width: 100%;
+    background: #ced6e0;
+    border: none;
+    /* padding-top: 3rem; */
+    font-size: 3rem;
+    /* margin-top: 3rem; */
+}
+.text-salida:focus{
+border: 0px;
+}
